@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>{{ title }}</h1>
+        <el-button type="primary">element plus</el-button>
     </div>
 </template>
 
