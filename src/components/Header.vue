@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="content">
         <h1>{{ title }}</h1>
         <el-button type="primary">element plus</el-button>
     </div>
@@ -15,3 +15,11 @@ export default {
     }
 }
 </script>
+
+<style lang="scss">
+.content {
+    h1 {
+        color: peru;
+    }
+}
+</style>
